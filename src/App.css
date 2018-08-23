@@ -2,27 +2,32 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Top {
+  width: 100vw;
+  height: 500px;
+  background-image: url("https://static.highsnobiety.com/wp-content/uploads/2016/11/30150545/japan-drift-scene-07-1200x800.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.4;
+  mix-blend-mode: multiply;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+header {
+  background-color: black;
+  color: hotpink;
+  font-size: 15em;
+  position: absolute;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+body {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: hotpink;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }

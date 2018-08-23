@@ -11,6 +11,9 @@ app.get('/api/test', (req, res) => {
 })
 app.get('/api/music', controller.getMusic)
 
+// app.post('/api/music/newplaylist')
+// app.put('/api/music/update')
+// app.delete('/api/music/delete')
 
-app.listen(PORT, () => console.log (`Up the butt charzard: ${PORT}`))
+app.listen(PORT, () => console.log (`Up the butt charzard ${PORT}`))
 

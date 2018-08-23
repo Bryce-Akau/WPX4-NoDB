@@ -38,7 +38,7 @@ var songs = [
 },
 {
     id: 5,
-    solo: false,
+    solo: true,
     type: "Meh",
     song: "Low Life",
     artist: "Future Feat. The Weeknd",
@@ -65,7 +65,7 @@ var songs = [
 },
 {
     id: 8,
-    solo: true,
+    solo: false,
     type: "Old Sku",
     song: "Vixen Lust",
     artist: "Regimental Feat. Mickey Boston",
@@ -74,7 +74,7 @@ var songs = [
 },
 {
     id: 9,
-    solo: false,
+    solo: true,
     type: "Meh",
     song: "All The Time",
     artist: "Jeremih, Lil Wayne, Natasha Mosley",
@@ -83,7 +83,7 @@ var songs = [
 },
 {
     id: 10,
-    solo: false,
+    solo: true,
     type: "Meh",
     song: "Cookie",
     artist: "R. Kelly",
@@ -92,7 +92,7 @@ var songs = [
 },
 {
     id: 11,
-    solo: false,
+    solo: true,
     type: "Meh",
     song: "To D.R.E.A.M",
     artist: "Tory Lanez",
@@ -146,7 +146,7 @@ var songs = [
 },
 {
     id: 17,
-    solo: false,
+    solo: true,
     type: "Meh",
     song: "Lollipop",
     artist: "Lil Wayne",
@@ -155,7 +155,7 @@ var songs = [
 },
 {
     id: 18,
-    solo: true,
+    solo: false,
     type: "Old Sku",
     song: "I Got Five On It",
     artist: "Lunatics",
@@ -164,7 +164,7 @@ var songs = [
 },
 {
     id: 19,
-    solo: true,
+    solo: false,
     type: "Old Sku",
     song: "Ditty",
     artist: "Paperboy",
@@ -173,7 +173,7 @@ var songs = [
 },
 {
     id: 20,
-    solo: true,
+    solo: false,
     type: "Old Sku",
     song: "Honest Expression",
     artist: "Binary Star (One Be Lo, Senim Sella)",
@@ -182,7 +182,7 @@ var songs = [
 },
 {
     id: 21,
-    solo: true,
+    solo: false,
     type: "Old Sku",
     song: "Hit'em Up Style",
     artist: "Blu Cantrells, Foxy Brown",
@@ -191,7 +191,7 @@ var songs = [
 },
 {
     id: 22,
-    solo: true,
+    solo: false,
     type: "Old Sku",
     song: "Big Poppa",
     artist: "Biggie",
@@ -200,7 +200,7 @@ var songs = [
 },
 {
     id: 23,
-    solo: false,
+    solo: true,
     type: "Meh",
     song: "Still Cold",
     artist: "Night Lovell",
@@ -216,9 +216,3 @@ var songs = [
     length: "29.52",
     url: "https://www.youtube.com/watch?v=wGfguhnvECc&t=1626s"
 }]
-
-module.exports = {
-    getMusic: (req, res) => {
-        res.status (200).send (songs)
-    }
-}
